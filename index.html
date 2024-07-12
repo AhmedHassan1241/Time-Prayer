@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adhan </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body style="direction: rtl;">
+    <div>
+        <header id="header">مواقيت الصلاة جميع محافظات مصر</header>
+    </div>
+    <div class="containerr"> <!-- container-->
+        <div class="cd"><!-- City & Date -->
+            <h1 id="ct">الدقهلية</h1>
+            <h2 id="date">التاريخ</h2>
+        </div>
+        <hr>
+        
+        <div class="times"> <!-- Times -->
+            <div class="box">
+                <div class="header">
+                    <h4 id="pName">الفجر</h4>
+                </div>
+                <div class="body">
+                    <h2 id="fajr">04:11</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="header">
+                    <h4 >الشروق</h4>
+                </div>
+                <div class="body">
+                    <h2 id="sunrise">04:11</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="header">
+                    <h4>الظهر</h4>
+                </div>
+                <div class="body">
+                    <h2 id="dhuhr">04:11</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="header">
+                    <h4>العصر</h4>
+                </div>
+                <div class="body">
+                    <h2 id="asr">04:11</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="header">
+                    <h4>المغرب</h4>
+                </div>
+                <div class="body">
+                    <h2 id="maghrib">04:11</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="header">
+                    <h4>العشاء</h4>
+                </div>
+                <div class="body">
+                    <h2 id="isha">04:11</h2>
+                </div>
+            </div>
+            
+            
+        </div>
+        <!-- Select city  -->
+        <div class="selctCity">
+            <select name="cities" id="city">
+                
+            </select>
+        </div>
+    </div>
+    
+    
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

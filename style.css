@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(70, 2, 135);
+    color: white;
+    box-sizing: border-box;
+    font-family: "Fustat", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+#header{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: -3px 5px 8px #fff;
+}
+.containerr{
+    padding: 2px;
+    height: 100vh;
+}
+.cd{
+margin: 20px;
+margin-bottom: 60px;
+}
+.cd>h1{
+    font-size: 50px;
+}
+.cd>h2{
+    font-weight: lighter;
+}
+hr{
+   margin: 0 50px;
+   border: 1px solid  #b3b0c5;
+}
+.times{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin: 25px 0;
+}
+.box{
+    background-color: white;
+    color: black;
+    margin-bottom: 25px;
+    width: 160px;
+    height: 200px;
+    box-shadow: 0px 3px 4px 10px rgb(187, 219, 204);
+}
+.header{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px 10px; 
+    font-size: large;
+    font-weight: bold;
+}
+.body{
+    padding:  52px 42px 0 ;
+    font-size: larger;
+    font-weight: bolder;
+}
+.selctCity{
+    text-align: center;
+    margin-top: 90px;
+
+}
+#city{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(25, 57, 117);
+    color: white;
+    border-radius: 20px;
+    padding:3px;
+    font-size: large;
+    font-family: "Fustat", sans-serif;
+    
+}
