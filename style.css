@@ -1,5 +1,7 @@
 body{
     background-color: rgb(70, 2, 135);
+    background-image: url(/image/images.jpeg);
+    background-size: cover;
     color: white;
     box-sizing: border-box;
     font-family: "Fustat", sans-serif;
